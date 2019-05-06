@@ -6,8 +6,8 @@ spring:
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
     driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: root
+    username: xiangyao
+    password: xiangyao123
     max-idle: 10
     min-idle: 5
     test-on-borrow: false
@@ -17,15 +17,15 @@ spring:
     hikari:
       minimum-idle: 0
   redis:
-    host: 127.0.0.1
+    host: 192.168.139.130
     port: 6379
     password: 
     timeout: 10000
   rabbitmq:
-    host: 127.0.0.1
+    host: 192.168.139.130
     port: 5672
-    username: yukong
-    password: x19961010
+    username: xiangyao
+    password: xiangyao123
   http:
     multipart:
       max-file-size: 1000MB
